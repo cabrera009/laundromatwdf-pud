@@ -182,7 +182,7 @@ html
 
             const subject = `Pickup Request from ${name}`;
             const body = `Name: ${name}\nPhone: ${phone}\nPickup Date: ${date}\nPickup Time: ${time}`;
-            const mailtoLink = `mailto:your-email@example.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+            const mailtoLink = `mailto:topdoglaundromat@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
             window.location.href = mailtoLink;
         }
 
